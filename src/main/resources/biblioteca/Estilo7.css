@@ -1,0 +1,14 @@
+.label {
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial";
+    -fx-font-style:italic;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 100%, #222222, #000000);
+    -fx-padding: 10px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+.fondo {  -fx-background-color:#7c7b7b;
+}

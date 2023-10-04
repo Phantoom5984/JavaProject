@@ -1,0 +1,32 @@
+.fondo { -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #ffcc00, #ff3300);
+}
+#login:hover,
+#registrarse:hover {
+    -fx-background-color: #45a049;
+}
+.Button:hover { -fx-background-color: #333333;
+    -fx-font-size: 18px;
+}
+
+.Button:pressed { -fx-background-color: #FFFFFF;
+-fx-text-fill: #000000;
+-fx-font-weight: bold;
+}
+.Button { -fx-background-color: #168700;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Times New Roman";
+    -fx-font-style: italic;
+    -fx-font-size: 20px;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+}
+
+#contrasenya,
+#usuario {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}

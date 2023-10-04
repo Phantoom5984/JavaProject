@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="689.0" prefWidth="1237.0" styleClass="fondo" stylesheets="@Estilo2.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="biblioteca.SecondaryController">
+   <children>
+      <ComboBox fx:id="editorial" layoutX="23.0" layoutY="231.0" onAction="#editorial" prefHeight="53.0" prefWidth="271.0" promptText="Elige una editorial" styleClass="Button2" stylesheets="@Estilo2.css" />
+      <ComboBox fx:id="autor" layoutX="23.0" layoutY="346.0" onAction="#autor" prefHeight="53.0" prefWidth="271.0" promptText="Elige un autor" styleClass="Button2" stylesheets="@Estilo2.css" />
+      <TableView fx:id="tabla" layoutX="318.0" layoutY="77.0" prefHeight="442.0" prefWidth="699.0" stylesheets="@Estilo2.css">
+        <columns>
+          <TableColumn fx:id="idTabla" prefWidth="61.0" text="ID" />
+            <TableColumn fx:id="tituloTabla" prefWidth="199.0" text="TITULO" />
+            <TableColumn fx:id="autorTabla" prefWidth="101.0" text="AUTOR" />
+            <TableColumn fx:id="editorialTabla" prefWidth="166.0" text="EDITORIAL" />
+            <TableColumn fx:id="fechaTabla" prefWidth="94.0" text="FECHA" />
+            <TableColumn fx:id="cantidadTabla" prefWidth="77.0" text="CANTIDAD" />
+        </columns>
+      </TableView>
+      <Button fx:id="eliminar" layoutX="1049.0" layoutY="237.0" mnemonicParsing="false" onAction="#eliminar" prefHeight="42.0" prefWidth="153.0" styleClass="boton" stylesheets="@Estilo2.css" text="Eliminar un libro" />
+      <Button fx:id="insertar" layoutX="1055.0" layoutY="298.0" mnemonicParsing="false" onAction="#insertar" styleClass="boton" stylesheets="@Estilo2.css" text="Insertar nuevo libro" />
+      <Button fx:id="volver" layoutX="1093.0" layoutY="359.0" mnemonicParsing="false" onAction="#volver" styleClass="boton" stylesheets="@Estilo2.css" text="Volver" />
+      <TextField fx:id="buscar" layoutX="492.0" layoutY="576.0" promptText="Buscar por nombre" styleClass="text-field" stylesheets="@Estilo2.css" />
+      <Button fx:id="buscarBoton" layoutX="719.0" layoutY="568.0" mnemonicParsing="false" onAction="#buscar" styleClass="boton" stylesheets="@Estilo2.css" text="Buscar" />
+      <Button fx:id="limpiar" layoutX="818.0" layoutY="568.0" mnemonicParsing="false" onAction="#limpiar" styleClass="boton" stylesheets="@Estilo2.css" text="Limpiar" />
+   </children>
+</AnchorPane>

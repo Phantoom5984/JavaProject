@@ -1,0 +1,33 @@
+.titulo {
+    -fx-font-size: 34px;
+    -fx-font-family: "Arial";
+    -fx-font-style:italic;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 100%, #222222, #000000);
+    -fx-padding: 10px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+.fondo { -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #ffcc00, #ff3300);;
+}
+.Button { -fx-background-color: #008287;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Times New Roman";
+    -fx-font-style: italic;
+    -fx-font-size: 28px;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+}
+.Button:hover { -fx-background-color: #333333;
+          -fx-font-size: 26px;
+}
+
+.Button:pressed { -fx-background-color: #FFFFFF;
+-fx-text-fill: #000000;
+-fx-font-weight: bold;
+}
+
